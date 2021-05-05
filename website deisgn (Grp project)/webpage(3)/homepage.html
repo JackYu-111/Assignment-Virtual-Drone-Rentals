@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+
+<html>
+ 
+ <head>
+  <link rel="stylesheet" type="text/css" href="StyleSheet2.css">
+  <title>homepage</title>
+  <style>
+  
+ article {
+ margin-top: 245px;
+ border-style: solid;
+ 
+
+    
+ }
+
+
+ * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  ;
+  
+  margin: auto;
+
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top:600px;
+  width: auto;
+  margin-top: 700px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 0px 0px;
+  margin-top: 0px;
+  
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 0px 0px;
+  margin-top: 0px;
+  top: 0;
+  text-align: center;
+  margin: 0px;
+}
+.photo {
+    border-style: solid;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height:300px;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+  </style>
+ </head>
+ <body>
+  <header>
+    <a href="homepage.html"><img src="2.jpg" alt="YLFM DRONE RENTALS" height="200" width="auto"></a>
+    <div class= "a">
+     <div class="navbar">
+      <a href="about_us.html">About Us</a>
+      <a href="DRONE RENTALL.html">Drone Rental</a>
+      <a href="account.html">Account</a>
+  
+      <div class="dropdown">
+       <button class="drop1">Contact</button>
+       <div class="dropdown-content">
+          <a href="Contact us.html">Support</a>
+          </div>
+         </div> 
+        </div>
+    
+  </header>
+  
+   
+
+  
+  <article style="text-align: center ;">
+    <H1 style="color:red; background-color;yellow; margin-top:245"> Example of our drone video </H1>
+    <iframe width="100%" height="750" margin-left="0" src="https://www.youtube.com/embed/5lWkZ-JaEOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <p style="margin: 20px 0px"> Credit:Man And Drone(Youtube) This is for learning purpose.<p>
+     
+     
+     
+    </article> 
+    <div class="photo">
+    <H1 style="color:red"> The Drone We provide</H1>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="Dji Mavic Mini.jpg" class="center">
+        <div class="text">Dji Mavic Mini</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="Dji Mavic air.png" class="center">
+        <div class="text">Dji Mavic Air</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="GoProKarmaDrone.jpg" class="center">
+        <div class="text">GoPro Karma Drone 3D Model</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="mini-drone-visuo-model-xs809hw.jpg" class="center">
+        <div class="text">Mini Drone Visuo Model-xs809hw</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="DJI Phantom 3 Professional Quadcopter 4K UHD Video Camera Drone.jpg" class="center">
+        <div class="text">DJI Phantom 3 Professional Quadcopter 4K UHD Video Camera Drone</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="DJI Mavic 2 Pro.jpg" class="center">
+        <div class="text">Mavic 2 Pro</div>
+      </div>
+      
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+   <br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+</div>
+   <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+ }
+
+ </script>
+
+ </body>
+</html>
