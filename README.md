@@ -6,11 +6,8 @@ Welcome to YLFM Drone Rentals, an immersive experience in the world of drone tec
 
 - [Overview](#overview)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Overview
 
@@ -30,4 +27,13 @@ Immerse yourself in the world of personalized drone rentals. Create an account t
 ### 4. Contact Us 📞
 Connect with us during our dedicated office hours for personalized support. Whether you have questions about drone specifications or need assistance with your account, our team is ready to assist.
 
-## Getting Started
+## Screenshots 📸
+
+![Homepage](/screenshots/homepage.png)
+![Drone Rental](/screenshots/drone_rental.png)
+![Account Page](/screenshots/account.png)
+
+## Technologies Used 🛠️
+
+- *HTML5:* Structuring web pages with the latest standards.
+- *CSS3:* Styling for a visually appealing and responsive design.
